@@ -69,7 +69,7 @@ def api2():
         new_model_predictions = predict_new_model(mainImage)
         return jsonify({'new_model_predictions': new_model_predictions.decode("utf-8"),'old_model_predictions': old_model_predictions.decode("utf-8")})
     except:
-       return jsonify({'Error': 'Error occur'}) 
+       return jsonify({'Error': 'Error occur'})
 
 
 if __name__ == '__main__':
