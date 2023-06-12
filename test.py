@@ -75,7 +75,7 @@ def load_old_model():
 
 def load_new_model():
     # Load the model from the file
-    loaded_model = torch.load('UNET_LossWBC.h5', )
+    loaded_model = torch.load('UNET_LossWBC.h5',map_location=torch.device('cpu') )
     return loaded_model;
 
 
