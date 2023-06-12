@@ -1,0 +1,7 @@
+numpy
+flask
+base64
+PIL
+io
+cv2
+tensorflow
