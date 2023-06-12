@@ -65,9 +65,10 @@ def api2():
         frame1 = get_frame_img(image1)
         frame2 = get_frame_img(image2)
         mainImage = map_filename_to_image_and_mask(frame1, frame2)
-        old_model_predictions = predict_old_model(mainImage)
+        #old_model_predictions = predict_old_model(mainImage)
         new_model_predictions = predict_new_model(mainImage)
-        return jsonify({'new_model_predictions': new_model_predictions.decode("utf-8"),'old_model_predictions': old_model_predictions.decode("utf-8")})
+        return jsonify({'new_model_predictions': new_model_predictions.decode("utf-8")})
+        #return jsonify({'new_model_predictions': new_model_predictions.decode("utf-8"),'old_model_predictions': old_model_predictions.decode("utf-8")})
     except:
        return jsonify({'Error': 'Error occur'})
 
