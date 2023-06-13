@@ -3,4 +3,4 @@ flask
 PIL
 io
 cv2
-tensorflow=2.10.1
+tensorflow==2.10.1
