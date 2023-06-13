@@ -72,6 +72,7 @@ def api2():
     except:
        return jsonify({'Error': 'Error occur'})
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
