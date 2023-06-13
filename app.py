@@ -46,7 +46,7 @@ def predict_new_model(mainImage):
 new_model = load_new_model()
 #old_model = load_old_model()
 
-app = Flask(__name__)
+app = Flask(__name__)  
 
 
 @app.route('/predictApi', methods=["POST"])
