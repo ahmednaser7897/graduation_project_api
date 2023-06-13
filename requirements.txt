@@ -5,3 +5,4 @@ opencv-python-headless==4.5.3.56
 tensorflow==2.10.1
 gunicorn==20.1.0
 torch==2.0.1
+segmentation-models-pytorch==0.3.3
