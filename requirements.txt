@@ -1,6 +1,5 @@
-numpy
-flask
-PIL
-io
-cv2
+numpy==1.20.1
+flask==1.1.2
+PIL==8.2.0
+cv2==4.7.0.72
 tensorflow==2.10.1
